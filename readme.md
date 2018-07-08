@@ -71,5 +71,5 @@ $ java -jar target/json-difference-api-1.0-SNAPSHOT.jar
 The following command will start the application as well as the required Cassandra.
 
 ```bash
-docker-compose -f docker-compose.yml -f docker-compose.app.yml run
+$ docker-compose -f docker-compose.yml -f docker-compose.app.yml up
 ```
