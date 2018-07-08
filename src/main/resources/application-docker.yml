@@ -1,0 +1,7 @@
+spring:
+  data:
+    cassandra:
+      keyspace-name: json_diff
+      contact-points:
+        - cassandra
+      port: 9042
